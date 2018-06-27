@@ -7,7 +7,9 @@
             </li>
         </ul>
     </section>
+        
 </template>
+
 
 <script>
 export default {
@@ -25,6 +27,13 @@ export default {
 </script>
 
 <style>
+/*覆盖animate.css*/
+.animated.fadeIn,
+.animated.bounceOutRight
+{
+  animation-duration: .3s;
+}
+
 html,
 body,
 section,
